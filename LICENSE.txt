@@ -1,0 +1,27 @@
+# ProCalc - Proprietary License
+
+## Copyright (c) [2025] [FlutterSmith]
+
+All rights reserved.
+
+### 1. License Grant
+Permission is hereby granted to the **end-user** to use this software **only for personal or internal business purposes**. Any **redistribution, modification, or public display** of this software **without explicit written permission** from the author is strictly prohibited.
+
+### 2. Restrictions
+The licensee **shall not**:
+- **Copy, distribute, modify, or sublicense** this software without prior authorization.
+- **Reverse-engineer, decompile, or disassemble** any part of this software.
+- **Use the software for commercial purposes** without a commercial license agreement.
+
+### 3. Ownership
+This software and its source code remain the **exclusive property** of the author. The licensee acknowledges that they **acquire no ownership rights** by using this software.
+
+### 4. Disclaimer of Warranty
+THIS SOFTWARE IS PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE AUTHOR DISCLAIMS ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OR INABILITY TO USE THIS SOFTWARE.
+
+### 5. Termination
+Any violation of these terms **will result in the automatic termination** of this license. Upon termination, the licensee **must delete all copies** of the software.
+
+For licensing inquiries, please contact me
+
+
