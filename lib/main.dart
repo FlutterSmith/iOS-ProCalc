@@ -1,4 +1,3 @@
-// lib/main.dart
 
 import 'package:cul_flutter/models/view_model.dart';
 import 'package:flutter/material.dart';
@@ -48,7 +47,6 @@ class CalculatorPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            // Display area for expression and result.
             Expanded(
               flex: 2,
               child: Container(
@@ -79,7 +77,6 @@ class CalculatorPage extends StatelessWidget {
                 ),
               ),
             ),
-            // Memory buttons row.
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 8),
               child: Row(
@@ -104,7 +101,6 @@ class CalculatorPage extends StatelessWidget {
                 ],
               ),
             ),
-            // Calculator buttons grid.
             Expanded(
               flex: 5,
               child: _buildButtonsGrid(calcVM),
@@ -115,7 +111,6 @@ class CalculatorPage extends StatelessWidget {
     );
   }
 
-  /// Builds a memory function button.
   Widget _buildMemoryButton(
       {required String label, required VoidCallback onTap}) {
     return Expanded(
@@ -161,7 +156,6 @@ class CalculatorPage extends StatelessWidget {
     );
   }
 
-  /// Builds an individual calculator button.
   Widget _buildCalcButton(String label, CalculatorViewModel calcVM) {
     // Determine style based on button type.
     final bool isOperator = ['÷', '×', '-', '+', '='].contains(label);
@@ -180,7 +174,6 @@ class CalculatorPage extends StatelessWidget {
       textColor = Colors.white;
     }
 
-    // Map displayed operator symbols to evaluable ones.
     VoidCallback onTap;
     switch (label) {
       case 'C':
@@ -228,7 +221,6 @@ class CalculatorPage extends StatelessWidget {
     );
   }
 
-  /// Displays the calculation history in a bottom sheet.
   void _showHistory(BuildContext context, List<CalculatorHistoryItem> history) {
     showModalBottomSheet(
       context: context,
