@@ -28,7 +28,6 @@ class CalculatorApp extends StatelessWidget {
 class CalculatorPage extends StatelessWidget {
   const CalculatorPage({Key? key}) : super(key: key);
 
-  /// Builds the main calculator UI.
   @override
   Widget build(BuildContext context) {
     final calcVM = Provider.of<CalculatorViewModel>(context);
@@ -132,7 +131,6 @@ class CalculatorPage extends StatelessWidget {
     );
   }
 
-  /// Builds the calculator buttons grid.
   Widget _buildButtonsGrid(CalculatorViewModel calcVM) {
     // Define button rows.
     final List<List<String>> buttons = [
@@ -157,7 +155,6 @@ class CalculatorPage extends StatelessWidget {
   }
 
   Widget _buildCalcButton(String label, CalculatorViewModel calcVM) {
-    // Determine style based on button type.
     final bool isOperator = ['÷', '×', '-', '+', '='].contains(label);
     final bool isUtility = ['C', '±', '%'].contains(label);
 
