@@ -1,0 +1,9 @@
+{
+    "@@locale": "en",
+    "calculatorTitle": "Advanced Calculator",
+    "memoryAdd": "M+",
+    "memorySubtract": "M-",
+    "memoryRecall": "MR",
+    "memoryClear": "MC"
+  }
+  
