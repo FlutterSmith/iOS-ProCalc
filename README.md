@@ -73,7 +73,7 @@ Ensure you have the following installed before running the app:
 ### Steps to Run  
 
 1️⃣ **Clone the Repository**  
-    ```bash
+    
 
       git clone https://github.com/yourusername/procalc.git
       cd procalc
@@ -81,12 +81,13 @@ Ensure you have the following installed before running the app:
 2️⃣ Install Dependencies
 
   
-    ```bash
+    
     
         flutter pub get
       
 3️⃣ Run the App
-    ```bash
+    
+    
       flutter run
 
 
