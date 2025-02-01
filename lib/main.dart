@@ -1,4 +1,3 @@
-
 import 'package:cul_flutter/models/view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -36,6 +35,7 @@ class CalculatorPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('Advanced Calculator'),
         actions: [
           IconButton(
